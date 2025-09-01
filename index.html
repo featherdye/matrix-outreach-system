@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=./matrix-outreach.html">
+    <title>Matrix Outreach System</title>
+    <style>
+        body {
+            font-family: 'Courier New', Monaco, monospace;
+            background: #000000;
+            color: #00ff41;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .green-text {
+            text-shadow: 0 0 10px #00ff41;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        a {
+            color: #00ff41;
+            text-decoration: none;
+        }
+        a:hover {
+            text-shadow: 0 0 5px #00ff41;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="green-text">Matrix Outreach System 🚀</h1>
+        <p>Initializing matrix...</p>
+        <p>If not redirected automatically, <a href="./matrix-outreach.html">click here to enter the matrix</a></p>
+        <script>
+            // JavaScript redirect as backup
+            setTimeout(function() {
+                window.location.href = './matrix-outreach.html';
+            }, 2000);
+        </script>
+    </div>
+</body>
+</html>
